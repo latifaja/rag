@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual environment =====
+venv/
+.env/
+.venv/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+secrets.toml
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== Logs & cache =====
+*.log
+.cache/
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Build / distribution =====
+build/
+dist/
+*.egg-info/
+
+
+

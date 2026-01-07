@@ -1,0 +1,41 @@
+C:\Users\JAK\Documents\rag>python -m venv venv
+
+C:\Users\JAK\Documents\rag>venv\Scripts\activate
+
+(venv) C:\Users\JAK\Documents\rag>pip install -r requirements.txt
+(venv) C:\Users\JAK\Documents\rag>pip install langchain-huggingface-hub sentence-transformers
+(venv) C:\Users\JAK\Documents\rag>pip install -U sentence-transformers
+
+(venv) C:\Users\JAK\Documents\rag>streamlit run app.py
+
+
+
+
+
+
+
+
+
+
+(venv) C:\Users\JAK\Documents\SDIA3\1PROJETS\BigData>pip install pyspark==3.4.1
+Collecting pyspark==3.4.1
+  Downloading pyspark-3.4.1.tar.gz (310.8 MB)
+     ---------------------------------------- 310.8/310.8 MB 3.6 MB/s  0:02:09
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting py4j==0.10.9.7 (from pyspark==3.4.1)
+  Downloading py4j-0.10.9.7-py2.py3-none-any.whl.metadata (1.5 kB)
+Downloading py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
+Building wheels for collected packages: pyspark
+  Building wheel for pyspark (pyproject.toml) ... done
+  Created wheel for pyspark: filename=pyspark-3.4.1-py2.py3-none-any.whl size=311285492 sha256=2ee2771251cee5b504971c1894dd0a35c7275dd45850edf432521faed9daa5f4
+  Stored in directory: c:\users\jak\appdata\local\pip\cache\wheels\e9\b4\d8\38accc42606f6675165423e9f0236f8e825f6b6b6048d6743e
+Successfully built pyspark
+Installing collected packages: py4j, pyspark
+Successfully installed py4j-0.10.9.7 pyspark-3.4.1
+
+(venv) C:\Users\JAK\Documents\SDIA3\1PROJETS\BigData>pip install kafka-python hdfs faker pandas numpy
+Collecting kafka-python
+  Using cached kafka_python-2.3.0-py2.py3-none-any.whl.metadata (10.0 kB)
+Collecting hdfs
